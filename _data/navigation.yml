@@ -1,12 +1,13 @@
 main:
   - title: "Home"
-    url: "/"
+    url: /
   - title: "People"
-    url: "/people/"
+    url: /people/
   - title: "Research"
-    url: "/research/"
+    url: /research/
   - title: "Teaching"
-    url: "/teaching/"
+    url: /teaching/
   - title: "News"
-    url: "/news/"
-
+    url: /news/
+  - title: "Join Us"
+    url: /join/

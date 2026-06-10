@@ -1,83 +1,66 @@
-# EMAC Jekyll Site
+# EMAC Lab Website
 
-Static website for the EMAC group, built with Jekyll. The site uses the Beautiful Jekyll theme via `remote_theme` (the theme code is not vendored in this repo).
+Built with [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) and hosted at [energy-mac.github.io](https://energy-mac.github.io).
 
-## Local Development
+---
 
-- Prerequisites
-  - Ruby 3.3 and Bundler installed
-  - No Node.js required
+## How to update the site (no coding needed)
 
-- Install dependencies
-  - `bundle install`
+### Add a news post
+1. Go to `_posts/` → **Add file → Create new file**
+2. Name it: `YYYY-MM-DD-short-title.md` (e.g. `2026-09-01-new-paper.md`)
+3. Add this header and fill in your content:
+```
+---
+layout: single
+title: "Your title here"
+date: 2026-09-01
+---
 
-- Run the dev server
-  - `bundle exec jekyll serve --livereload`
-  - Open `http://127.0.0.1:4000`
+Write your news item here in plain text or Markdown.
+```
+4. Click **Commit** — site rebuilds in ~30 seconds
 
-- Build for production
-  - `bundle exec jekyll build`
-  - Output is generated in `_site/`
+### Add yourself to the People page
+1. Go to `_students/` → **Add file → Create new file**
+2. Name it `firstname-lastname.md`
+3. Copy this and fill in your details:
+```
+---
+name: "Your Name"
+role: "PhD Student"
+photo: "/assets/img/students/your-name.jpg"
+email: "you@berkeley.edu"
+research: "One sentence describing your research."
+alumni: false
+---
 
-- Optional: build against multiple Jekyll versions (theme compatibility)
-  - `bundle exec appraisal install`
-  - `bundle exec appraisal jekyll build`
+A short bio paragraph about yourself.
+```
+4. Add your photo to `assets/img/students/` (square crop works best)
+5. Commit both files
 
-## Project Structure
+### Move someone to Alumni
+Open their file in `_students/` and change:
+```
+alumni: true
+degree: "PhD"
+grad_year: 2026
+position: "Their new job title and organization"
+```
 
-- `_config.yml` — main site config; references the theme via `remote_theme` and configures `plugins`.
-- `_posts/` — blog posts (`YYYY-MM-DD-title.md`).
-- Root content pages — `index.html`, `people.md`, `research.*`, `tags.html`, `404.html`, `feed.xml`.
-- `_data/ui-text.yml` — site copy.
-- `assets/` — static assets; store images in `assets/img/`.
-- `_students/` — collection of student pages (one Markdown file per student).
-- No local `_layouts/` or `_includes/` — the theme provides templates. Only add files there if you need to override specific templates.
+### Edit research areas or teaching
+Edit `_pages/research.md` or `_pages/teaching.md` directly.
 
-## Configuration
+---
 
-- Navigation (`navbar-links`), social links, colors, analytics, and comments are configured in `_config.yml`.
-- Prefer absolute asset paths like `/assets/img/...`.
-- Update any image references in page front‑matter to match actual filenames in `assets/img/`.
-
-### Students collection
-
-- Add a new student by creating a Markdown file in `_students/`, e.g. `_students/jane-doe.md`:
-
-  ```yaml
-  ---
-  title: Jane Doe
-  role: PhD Student
-  email: jane.doe@berkeley.edu
-  website: https://janedoe.example.com
-  # Optional image stored at /assets/img/students/jane-doe.jpg
-  # photo: /assets/img/students/jane-doe.jpg
-  ---
-  Short bio or description.
-  ```
-
-- Each student page is generated at `/people/<filename>/` and the homepage and People page automatically list all current students and alumni with links to their pages.
-- Student cards fall back to `/assets/img/avatar-icon.png` if no `photo` is provided.
-
-#### Marking alumni
-
-- To show someone under Alumni, add `alumni: true` in their front matter:
-
-  ```yaml
-  ---
-  title: John Smith
-  role: PhD, 2024
-  alumni: true
-  ---
-  ```
-
-- Current students should either omit `alumni` or set it to `false`.
-
-## Continuous Integration
-
-- GitHub Actions builds the site via `.github/workflows/ci.yml`.
-- CI installs dependencies, sets a preview `baseurl`, and builds with Appraisal against Jekyll 3 and 4.
-
-## Troubleshooting
-
-- If `jekyll serve` fails on Ruby 3+, ensure `webrick` is installed (included in the Gemfile).
-- Port already in use? Run with `--port 4001` or stop the existing server.
+## File structure
+```
+_config.yml          ← Site settings (don't edit unless you know what you're doing)
+_posts/              ← News items
+_pages/              ← Static pages (people, research, teaching, join)
+_students/           ← One file per group member
+assets/img/students/ ← Photos
+assets/css/custom.css← Colors and styling
+_data/navigation.yml ← Top nav links
+```
