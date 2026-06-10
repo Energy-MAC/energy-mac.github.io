@@ -1,6 +1,6 @@
 ---
 name: "Ana Santasheva"
-role: "PhD Student"          # PhD Student | Postdoctoral Researcher | Masters Student
+role: "PhD Student?"          # PhD Student | Postdoctoral Researcher | Masters Student
 photo: "/assets/img/students/ana-santasheva.jpg"
 email: ""
 research: "Energy systems modeling, optimization, and grid decarbonization."
