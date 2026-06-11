@@ -1,10 +1,13 @@
 ---
-name: "Ana Santasheva"
-role: "PhD Student"          # PhD Student | Postdoctoral Researcher | Masters Student
-photo: "/assets/img/students/ana-santasheva.jpg"
-email: ""
-research: "Energy systems modeling, optimization, and grid decarbonization."
-alumni: false
+title: "Ana Santasheva"
+role: "Graduate Student"
+program: "MS, Energy and Resources Group"
+# photo: "/assets/img/people/ana-santasheva.jpg"
+# website: ""
+# scholar: ""
+# github: ""
+# email: ""
+permalink: /people/ana-santasheva/
 ---
 
-Ana is a PhD student in the Energy & Resources Group at UC Berkeley. Her research focuses on energy systems modeling, optimization, and grid decarbonization.
+*Bio coming soon. To update this page, edit `_students/ana-santasheva.md` in the repository.*

@@ -2,25 +2,21 @@
 layout: single
 title: "Join Us"
 permalink: /join/
+author_profile: false
 ---
 
-We are always interested in hearing from motivated students and researchers who want to work on the technical and policy challenges of decarbonizing the electricity sector.
+We are always interested in hearing from prospective students and postdocs with strong quantitative backgrounds and an interest in energy systems, power engineering, or environmental policy.
 
-## PhD Students
+## Prospective Graduate Students
 
-Prospective PhD students should apply through the [Energy & Resources Group](https://erg.berkeley.edu/admissions/) at UC Berkeley. Mention your interest in working with EMAC in your application. Feel free to email Duncan at [dcal@berkeley.edu](mailto:dcal@berkeley.edu) before applying — a brief email with your CV and a sentence or two about your interests is welcome.
+Prospective PhD and MS students should apply through the [Energy and Resources Group](https://erg.berkeley.edu/academics/admissions/) or [Electrical Engineering and Computer Sciences](https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/) at UC Berkeley. Please mention your interest in EMAC in your application.
 
-## Postdoctoral Researchers
+Feel free to reach out to [Duncan Callaway](mailto:dcal@berkeley.edu) with a brief description of your background and research interests before applying.
 
-Postdoc positions are advertised here when available. If you have a strong background in power systems, optimization, or related fields and are interested in developing a fellowship proposal (NSF, DOE, etc.), please reach out.
+## Prospective Postdocs
 
-## Masters and Undergraduate Students
+Please send a CV, a brief statement of your research interests, and the names of two references to [dcal@berkeley.edu](mailto:dcal@berkeley.edu).
 
-Berkeley students interested in research should email [dcal@berkeley.edu](mailto:dcal@berkeley.edu) with a brief description of your background and interests.
+## Undergraduate Researchers
 
----
-
-**Duncan Callaway**  
-Professor, Energy & Resources Group  
-310 Barrows Hall, University of California, Berkeley  
-[dcal@berkeley.edu](mailto:dcal@berkeley.edu)
+Berkeley undergraduates interested in research opportunities should contact [Duncan Callaway](mailto:dcal@berkeley.edu) directly.

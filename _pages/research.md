@@ -2,32 +2,31 @@
 layout: single
 title: "Research"
 permalink: /research/
+author_profile: false
 ---
 
-The EMAC group addresses the engineering and techno-economic challenges to decarbonizing electric power systems. Our work ranges from applied to theoretical, with a focus on building new control and optimization frameworks to facilitate the operation of low-carbon grids.
+The EMAC group addresses the engineering and techno-economic challenges to decarbonizing electric power systems. Some of the core questions we work on are:
 
-## Research Areas
+1. **Grid flexibility** — How can future power systems be made sufficiently flexible to accommodate very large penetrations of wind and solar generation?
 
-### Grid Flexibility and Control
-How can future power systems be made sufficiently flexible to accommodate very large penetrations of wind and solar generation? We develop control and optimization frameworks for distributed resources — batteries, flexible loads, electric vehicles — that can provide grid services at scale.
+2. **Distributed resources** — How does heavily distributed renewable electricity generation impact the operation and economics of low voltage distribution systems?
 
-### Energy Systems Analysis
-We develop and apply models for the electricity sector, from unit commitment and economic dispatch to capacity expansion and long-run planning. Recent work connects grid operations to air quality and health outcomes across California's clean energy transition.
+3. **Energy storage** — What is the value of energy storage in large-scale power systems?
 
-### Environmental Justice and Electricity Access
-We study how the energy transition affects communities differently, with a focus on equitable outcomes. This includes work on electricity access in Sub-Saharan Africa and ensuring the benefits of clean energy reach disadvantaged communities in California.
+4. **Data-driven policy** — What energy efficiency opportunities can be identified with electricity consumption data alone?
 
-### Energy Storage
-Analysis of the role of batteries and other storage technologies in decarbonized grids, including optimal sizing, dispatch, and valuation under uncertainty.
+Our work ranges from applied to theoretical. Sometimes we use third-party simulation platforms; sometimes we build our own simulation tools. Much of our work focuses on building new control and optimization frameworks to facilitate the operation of low carbon grids. We are increasingly working with large datasets — especially electricity consumption and solar production data — and building tools and algorithms to process and infer policy-relevant information.
+
+Our code and models are available through our [GitHub organization](https://github.com/Energy-MAC).
 
 ---
 
-## Software
+## Selected Projects
 
-The group develops and contributes to open-source power systems software. See the [Energy-MAC GitHub](https://github.com/Energy-MAC) for current projects.
+*Project descriptions coming soon.*
 
 ---
 
 ## Publications
 
-See [Google Scholar](https://scholar.google.com/citations?user=Ugijg1wAAAAJ&hl=en) for a full and up-to-date list.
+A full list of publications is available on [Google Scholar](https://scholar.google.com/citations?user=Ugijg1wAAAAJ&hl=en).
