@@ -1,0 +1,125 @@
+# =============================================================
+# Energy-MAC Lab Site
+# Built with Minimal Mistakes Jekyll theme
+# https://mmistakes.github.io/minimal-mistakes/
+# =============================================================
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"
+
+# --- Site settings ---
+title: "EMAC"
+title_separator: "-"
+subtitle: "Energy Modeling, Analysis, and Control"
+name: "Duncan Callaway"
+description: "Energy Modeling, Analysis, and Control group at UC Berkeley"
+url: "https://energy-mac.github.io"
+baseurl: ""
+repository: "Energy-MAC/energy-mac.github.io"
+
+# --- Site author (shows in sidebar) ---
+author:
+  name: "Duncan Callaway"
+  avatar: "/assets/img/headshot_small_23.png"
+  bio: "Professor, Energy & Resources Group, UC Berkeley"
+  location: "Berkeley, CA"
+  email: "dcal@berkeley.edu"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dcal@berkeley.edu"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=Ugijg1wAAAAJ&hl=en"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Energy-MAC"
+
+# --- Footer ---
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Energy-MAC"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=Ugijg1wAAAAJ&hl=en"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dcal@berkeley.edu"
+
+# --- Reading files ---
+include:
+  - _pages
+  - _students
+
+# --- Collections ---
+collections:
+  students:
+    output: true
+    permalink: /people/:path/
+
+# --- Defaults ---
+defaults:
+  # All pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  # Posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      show_date: true
+      read_time: false
+      share: false
+      related: false
+  # Students collection
+  - scope:
+      path: ""
+      type: students
+    values:
+      layout: single
+      author_profile: false
+
+# --- Plugins ---
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# --- Pagination ---
+paginate: 8
+paginate_path: /news/page:num/
+
+# --- Markdown ---
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+
+# --- Other ---
+timezone: "America/Los_Angeles"
+permalink: /:year-:month-:day-:title/
+date_format: "%B %-d, %Y"
+
+# --- Exclude from build ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CHANGELOG.md
+  - LICENSE
+  - screenshot.png
+  - Appraisals
+  - staticman.yml
+  - vendor
