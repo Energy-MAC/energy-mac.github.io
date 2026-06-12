@@ -8,7 +8,7 @@ author_profile: false
 ## Principal Investigator
 
 <div class="person-card">
-    <img class="person-photo" src="/assets/img/headshot_small_23.png" alt="Duncan Callaway" style="max-width: 30px;">  <div class="person-info">
+    <img class="person-photo" src="/assets/img/headshot_small_23.png" alt="Duncan Callaway" style="max-width: 150px;">  <div class="person-info">
     <h3><a href="https://erg.berkeley.edu/people/callaway-duncan/">Duncan Callaway</a></h3>
     <p class="person-role">Professor, Energy and Resources Group</p>
     <p>Duncan's research focuses on modeling, optimization, and control of electric power systems with high penetrations of renewable energy and distributed energy resources.</p>
