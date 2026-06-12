@@ -32,15 +32,3 @@
   padding-top: 0 !important;
   line-height: 1;
 }
-
-/* Wider content area */
-.page__content {
-  max-width: 100% !important;
-  width: 100% !important;
-}
-
-/* Fix font size so it doesn't scale with window */
-.person-info p, .person-info h3 {
-/*  font-size: 16px !important; */
-}
-
