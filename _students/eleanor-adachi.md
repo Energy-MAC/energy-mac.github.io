@@ -8,6 +8,9 @@ program: "MPP, Energy and Resources Group"
 # github: ""
 # email: ""
 permalink: /people/eleanor-adachi/
+alumni: true
+degree: "Masters"
+grad_year: 2025
 ---
 
 *Bio coming soon. To update this page, edit `_students/eleanor-adachi.md` in the repository.*
