@@ -23,9 +23,7 @@ author_profile: false
 {% assign current = site.people | where: "alumni", "no" | sort: "name" %}
 {% for person in current %}
 <div class="person-card">
-  {% if person.photo %}
-  <img class="person-photo" src="{{ person.photo }}" alt="{{ person.name }}">
-  {% endif %}
+  {% if person.photo %}<img class="person-photo" src="{{ person.photo }}" alt="{{ person.name }}">{% endif %}
   <div class="person-info">
     <h3>{{ person.name }}</h3>
     <p class="person-role">{{ person.role }}, {{ person.program }}</p>
