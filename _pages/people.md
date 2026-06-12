@@ -56,6 +56,7 @@ author_profile: false
     <h3>{{ person.name }}</h3>
     <p class="person-role">{{ person.role }}, {{ person.program }}</p>
     {% if person.bio and person.bio != "" %}<p>{{ person.bio }}</p>{% endif %}
+    {% if person.current_role %}<p><strong>Now:</strong> {{ person.current_role }}</p>{% endif %}
     {% if person.scholar or person.linkedin %}
     <p>
       {% if person.scholar %}<a href="{{ person.scholar }}">Google Scholar</a>{% endif %}
