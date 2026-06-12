@@ -8,7 +8,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "default"
 
 # --- Site settings ---
-%title: "EMAC"
+title: "EMAC"
 title: " "
 title_separator: "-"
 %subtitle: "Energy Modeling, Analysis, and Control"
