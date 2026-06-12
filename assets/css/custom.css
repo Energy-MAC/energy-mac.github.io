@@ -41,6 +41,6 @@
 
 /* Fix font size so it doesn't scale with window */
 .person-info p, .person-info h3 {
-  font-size: 16px !important;
+/*  font-size: 16px !important; */
 }
 
