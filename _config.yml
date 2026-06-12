@@ -18,7 +18,7 @@ description: "Energy Modeling, Analysis, and Control group at UC Berkeley"
 url: "https://energy-mac.github.io"
 baseurl: ""
 repository: "Energy-MAC/energy-mac.github.io"
-# logo: "/assets/img/emac-scaled.png"
+logo: "/assets/img/emaclab-scaled.png"
 
 # --- Site author (shows in sidebar) ---
 author:

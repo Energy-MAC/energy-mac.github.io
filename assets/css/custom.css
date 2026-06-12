@@ -1,5 +1,5 @@
 /* Resize and align the masthead logo */
 .site-logo img {
-  max-height: 6px !important;
+  max-height: 60px !important;
   width: auto !important;
 } 
