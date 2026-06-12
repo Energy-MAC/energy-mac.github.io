@@ -5,7 +5,7 @@ author_profile: false
 #  image: /assets/img/emaclab-scaled.png
 ---
 
-The **Energy Modeling, Analysis, and Control (EMAC)** group is based at the University of California, Berkeley in the [Energy and Resources Group](https://erg.berkeley.edu). We address the engineering and techno-economic challenges to decarbonizing electric power systems.
+The **Energy Modeling, Analysis, and Control (EMAC)** research group is based at the University of California, Berkeley in the [Energy and Resources Group](https://erg.berkeley.edu). We address the engineering and techno-economic challenges to decarbonizing electric power systems.
 
 Our work ranges from applied to theoretical. Much of our focus is on building new control and optimization frameworks to facilitate the operation of low carbon grids. We are increasingly working with large datasets — especially electricity consumption and solar production data — and building tools and algorithms to process and infer policy-relevant information.
 
