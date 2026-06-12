@@ -21,7 +21,7 @@ author_profile: false
 
 ## Current Group Members
 
-{% assign current = site.students | where: "alumni", "no" | sort: "name" %}
+{% assign current = site.people | where: "alumni", "no" | sort: "name" %}
 {% for person in current %}
 <div class="person-card">
   {% if person.photo %}
@@ -48,7 +48,7 @@ author_profile: false
 
 ## Alumni
 
-{% assign alumni = site.students | where: "alumni", "yes" | sort: "name" %}
+{% assign alumni = site.people | where: "alumni", "yes" | sort: "name" %}
 {% if alumni.size > 0 %}
 {% for person in alumni %}
 <div class="person-card">

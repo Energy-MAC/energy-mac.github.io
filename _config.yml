@@ -58,9 +58,9 @@ include:
 
 # --- Collections ---
 collections:
-  students:
+  people:
     output: true
-    permalink: /people/:path/
+    permalink: /people/:name/
 
 # --- Defaults ---
 defaults:
