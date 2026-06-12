@@ -11,8 +11,18 @@
   margin-bottom: 30px;
 }
 
+/* fix width of person photos */
 .person-photo {
   max-width: 150px;
   height: auto;
   flex-shrink: 0;
+}
+
+/* Align photo to top of card, not center */
+.person-card {
+  align-items: flex-start !important;
+}
+
+.person-photo {
+  margin-top: 0 !important;
 }
