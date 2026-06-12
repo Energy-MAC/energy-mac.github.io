@@ -3,3 +3,8 @@
   max-height: 60px !important;
   width: auto !important;
 } 
+
+.person-photo {
+  max-width: 150px;
+  height: auto;
+}
