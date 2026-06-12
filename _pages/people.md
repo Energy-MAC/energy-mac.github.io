@@ -5,7 +5,7 @@ permalink: /people/
 author_profile: false
 ---
 
-## Principal Investigator
+## Current Group Members
 
 <div class="person-card">
     <img class="person-photo" src="/assets/img/people/duncan-callaway.png" alt="Duncan Callaway" style="max-width: 150px;">  <div class="person-info">
@@ -15,10 +15,6 @@ author_profile: false
     <p><a href="mailto:dcal@berkeley.edu">dcal@berkeley.edu</a></p>
   </div>
 </div>
-
----
-
-## Current Group Members
 
 {% assign current = site.people | where: "alumni", "no" | sort: "name" %}
 {% for person in current %}
