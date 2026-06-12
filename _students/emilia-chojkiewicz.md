@@ -1,13 +1,11 @@
 ---
-title: "Emilia Chojkiewicz"
-role: "Graduate Student"
-program: "PhD, Energy and Resources Group"
+name: "Emilia Chojkiewicz"
+role: "PhD student"
+alumni: "no"
+program: "Energy and Resources Group"
 # photo: "/assets/img/people/emilia-chojkiewicz.jpg"
-# website: ""
+bio: ""
 # scholar: ""
-# github: ""
-# email: ""
+# linkedin: ""
 permalink: /people/emilia-chojkiewicz/
 ---
-
-*Bio coming soon. To update this page, edit `_students/emilia-chojkiewicz.md` in the repository.*

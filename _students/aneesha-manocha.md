@@ -1,13 +1,11 @@
 ---
-title: "Aneesha Manocha"
-role: "Graduate Student"
-program: "PhD, Energy and Resources Group"
+name: "Aneesha Manocha"
+role: "PhD student"
+alumni: "no"
+program: "Energy and Resources Group"
 # photo: "/assets/img/people/aneesha-manocha.jpg"
-# website: ""
+bio: ""
 # scholar: ""
-# github: ""
-# email: ""
+# linkedin: ""
 permalink: /people/aneesha-manocha/
 ---
-
-*Bio coming soon. To update this page, edit `_students/aneesha-manocha.md` in the repository.*

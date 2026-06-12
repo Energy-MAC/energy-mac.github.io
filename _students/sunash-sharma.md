@@ -1,13 +1,11 @@
 ---
-title: "Sunash Sharma"
-role: "Graduate Student"
-program: "PhD, Electrical Engineering and Computer Sciences"
+name: "Sunash Sharma"
+role: "PhD student"
+alumni: "no"
+program: "Electrical Engineering and Computer Sciences"
 # photo: "/assets/img/people/sunash-sharma.jpg"
-# website: ""
+bio: ""
 # scholar: ""
-# github: ""
-# email: ""
+# linkedin: ""
 permalink: /people/sunash-sharma/
 ---
-
-*Bio coming soon. To update this page, edit `_students/sunash-sharma.md` in the repository.*

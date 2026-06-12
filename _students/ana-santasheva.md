@@ -1,13 +1,11 @@
 ---
-title: "Ana Santasheva"
-role: "Graduate Student"
-program: "MS, Energy and Resources Group"
+name: "Ana Santasheva"
+role: "Master's student"
+alumni: "no"
+program: "Energy and Resources Group"
 # photo: "/assets/img/people/ana-santasheva.jpg"
-# website: ""
+bio: ""
 # scholar: ""
-# github: ""
-# email: ""
+# linkedin: ""
 permalink: /people/ana-santasheva/
 ---
-
-*Bio coming soon. To update this page, edit `_students/ana-santasheva.md` in the repository.*

@@ -12,108 +12,60 @@ author_profile: false
   <div class="person-info">
     <h3><a href="https://erg.berkeley.edu/people/callaway-duncan/">Duncan Callaway</a></h3>
     <p class="person-role">Professor, Energy and Resources Group</p>
-    <p>Duncan's research focuses on modeling, optimization, and control of electric power systems with high penetrations of renewable energy and distributed energy resources. <a href="mailto:dcal@berkeley.edu">dcal@berkeley.edu</a></p>
+    <p>Duncan's research focuses on modeling, optimization, and control of electric power systems with high penetrations of renewable energy and distributed energy resources.</p>
+    <p><a href="mailto:dcal@berkeley.edu">dcal@berkeley.edu</a></p>
   </div>
 </div>
 
 ---
 
-## Postdoctoral Researchers
+## Current Group Members
 
+{% assign current = site.students | where: "alumni", "no" | sort: "name" %}
+{% for person in current %}
 <div class="person-card">
+  {% if person.photo %}
+  <img class="person-photo" src="{{ person.photo }}" alt="{{ person.name }}">
+  {% endif %}
   <div class="person-info">
-    <h3>Mengqi Yao</h3>
-    <p class="person-role">Postdoctoral Researcher (PhD, Electrical Engineering)</p>
-    <p><em>Bio coming soon.</em></p>
+    <h3>{{ person.name }}</h3>
+    <p class="person-role">{{ person.role }}, {{ person.program }}</p>
+    {% if person.bio and person.bio != "" %}
+    <p>{{ person.bio }}</p>
+    {% endif %}
+    {% if person.scholar or person.linkedin %}
+    <p>
+      {% if person.scholar %}<a href="{{ person.scholar }}">Google Scholar</a>{% endif %}
+      {% if person.scholar and person.linkedin %} · {% endif %}
+      {% if person.linkedin %}<a href="{{ person.linkedin }}">LinkedIn</a>{% endif %}
+    </p>
+    {% endif %}
   </div>
 </div>
-
----
-
-## Graduate Students
-
-<div class="person-card">
-  <div class="person-info">
-    <h3>Ana Santasheva</h3>
-    <p class="person-role">MS, Energy and Resources Group</p>
-    <p><em>Bio coming soon.</em></p>
-  </div>
-</div>
-
-<div class="person-card">
-  <div class="person-info">
-    <h3>Liyang Wang</h3>
-    <p class="person-role">PhD, Energy and Resources Group</p>
-    <p><em>Bio coming soon.</em></p>
-  </div>
-</div>
-
-<div class="person-card">
-  <div class="person-info">
-    <h3>Eleanor Adachi</h3>
-    <p class="person-role">MPP, Energy and Resources Group</p>
-    <p><em>Bio coming soon.</em></p>
-  </div>
-</div>
-
-<div class="person-card">
-  <div class="person-info">
-    <h3>Aneesha Manocha</h3>
-    <p class="person-role">PhD, Energy and Resources Group</p>
-    <p><em>Bio coming soon.</em></p>
-  </div>
-</div>
-
-<div class="person-card">
-  <div class="person-info">
-    <h3>Rachman Setiawan</h3>
-    <p class="person-role">MS, Energy and Resources Group</p>
-    <p><em>Bio coming soon.</em></p>
-  </div>
-</div>
-
-<div class="person-card">
-  <div class="person-info">
-    <h3>Kwabena Owusu Sarfo</h3>
-    <p class="person-role">MS, Energy and Resources Group</p>
-    <p><em>Bio coming soon.</em></p>
-  </div>
-</div>
-
-<div class="person-card">
-  <div class="person-info">
-    <h3>Gabriel Colón Reyes</h3>
-    <p class="person-role">PhD, Electrical Engineering and Computer Sciences</p>
-    <p><em>Bio coming soon.</em></p>
-  </div>
-</div>
-
-<div class="person-card">
-  <div class="person-info">
-    <h3>Sunash Sharma</h3>
-    <p class="person-role">PhD, Electrical Engineering and Computer Sciences</p>
-    <p><em>Bio coming soon.</em></p>
-  </div>
-</div>
-
-<div class="person-card">
-  <div class="person-info">
-    <h3>Emilia Chojkiewicz</h3>
-    <p class="person-role">PhD, Energy and Resources Group</p>
-    <p><em>Bio coming soon.</em></p>
-  </div>
-</div>
-
-<div class="person-card">
-  <div class="person-info">
-    <h3>Ruth Kravis</h3>
-    <p class="person-role">PhD, Electrical Engineering and Computer Sciences</p>
-    <p><em>Bio coming soon.</em></p>
-  </div>
-</div>
+{% endfor %}
 
 ---
 
 ## Alumni
 
-*Former group members and their current positions will be listed here.*
+{% assign alumni = site.students | where: "alumni", "yes" | sort: "name" %}
+{% if alumni.size > 0 %}
+{% for person in alumni %}
+<div class="person-card">
+  <div class="person-info">
+    <h3>{{ person.name }}</h3>
+    <p class="person-role">{{ person.role }}, {{ person.program }}</p>
+    {% if person.bio and person.bio != "" %}<p>{{ person.bio }}</p>{% endif %}
+    {% if person.scholar or person.linkedin %}
+    <p>
+      {% if person.scholar %}<a href="{{ person.scholar }}">Google Scholar</a>{% endif %}
+      {% if person.scholar and person.linkedin %} · {% endif %}
+      {% if person.linkedin %}<a href="{{ person.linkedin }}">LinkedIn</a>{% endif %}
+    </p>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+{% else %}
+*Former group members will be listed here.*
+{% endif %}

@@ -1,13 +1,11 @@
 ---
-title: "Gabriel Colón Reyes"
-role: "Graduate Student"
-program: "PhD, Electrical Engineering and Computer Sciences"
+name: "Gabriel Colón Reyes"
+role: "PhD student"
+alumni: "no"
+program: "Electrical Engineering and Computer Sciences"
 # photo: "/assets/img/people/gabriel-colon-reyes.jpg"
-# website: ""
+bio: ""
 # scholar: ""
-# github: ""
-# email: ""
+# linkedin: ""
 permalink: /people/gabriel-colon-reyes/
 ---
-
-*Bio coming soon. To update this page, edit `_students/gabriel-colon-reyes.md` in the repository.*

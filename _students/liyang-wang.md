@@ -1,13 +1,11 @@
 ---
-title: "Liyang Wang"
-role: "Graduate Student"
-program: "PhD, Energy and Resources Group"
+name: "Liyang Wang"
+role: "PhD student"
+alumni: "no"
+program: "Energy and Resources Group"
 # photo: "/assets/img/people/liyang-wang.jpg"
-# website: ""
+bio: ""
 # scholar: ""
-# github: ""
-# email: ""
+# linkedin: ""
 permalink: /people/liyang-wang/
 ---
-
-*Bio coming soon. To update this page, edit `_students/liyang-wang.md` in the repository.*

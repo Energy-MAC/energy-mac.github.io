@@ -1,13 +1,11 @@
 ---
-title: "Eleanor Adachi"
-role: "Graduate Student"
-program: "MPP, Energy and Resources Group"
+name: "Eleanor Adachi"
+role: "Master's student"
+alumni: "no"
+program: "Energy and Resources Group"
 # photo: "/assets/img/people/eleanor-adachi.jpg"
-# website: ""
+bio: ""
 # scholar: ""
-# github: ""
-# email: ""
+# linkedin: ""
 permalink: /people/eleanor-adachi/
 ---
-
-*Bio coming soon. To update this page, edit `_students/eleanor-adachi.md` in the repository.*

@@ -1,13 +1,11 @@
 ---
-title: "Kwabena Owusu Sarfo"
-role: "Graduate Student"
-program: "MS, Energy and Resources Group"
+name: "Kwabena Owusu Sarfo"
+role: "Master's student"
+alumni: "no"
+program: "Energy and Resources Group"
 # photo: "/assets/img/people/kwabena-owusu-sarfo.jpg"
-# website: ""
+bio: ""
 # scholar: ""
-# github: ""
-# email: ""
+# linkedin: ""
 permalink: /people/kwabena-owusu-sarfo/
 ---
-
-*Bio coming soon. To update this page, edit `_students/kwabena-owusu-sarfo.md` in the repository.*

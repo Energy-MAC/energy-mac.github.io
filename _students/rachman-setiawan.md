@@ -1,13 +1,11 @@
 ---
-title: "Rachman Setiawan"
-role: "Graduate Student"
-program: "MS, Energy and Resources Group"
+name: "Rachman Setiawan"
+role: "Master's student"
+alumni: "no"
+program: "Energy and Resources Group"
 # photo: "/assets/img/people/rachman-setiawan.jpg"
-# website: ""
+bio: ""
 # scholar: ""
-# github: ""
-# email: ""
+# linkedin: ""
 permalink: /people/rachman-setiawan/
 ---
-
-*Bio coming soon. To update this page, edit `_students/rachman-setiawan.md` in the repository.*
