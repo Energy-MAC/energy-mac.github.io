@@ -26,3 +26,14 @@
 .person-photo {
   margin-top: 0 !important;
 }
+
+/* change position where person text starts */
+.person-info {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.person-info h3 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
