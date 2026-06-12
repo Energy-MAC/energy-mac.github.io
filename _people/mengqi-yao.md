@@ -1,7 +1,7 @@
 ---
 name: "Mengqi Yao"
 role: "Postdoc"
-alumni: "no"
+alumni: "yes"
 program: "Energy and Resources Group"
 # photo: "/assets/img/people/mengqi-yao.jpg"
 bio: ""
