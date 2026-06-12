@@ -2,7 +2,7 @@
 name: "Eleanor Adachi"
 role: "Master's student"
 alumni: "no"
-program: "Energy and Resources Group"
+program: "Energy and Resources Group and Goldman School of Public Policy"
 # photo: "/assets/img/people/eleanor-adachi.jpg"
 bio: ""
 # scholar: ""
