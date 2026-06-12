@@ -31,7 +31,6 @@ author_profile: false
     <p>{% if person.scholar %}<a href="{{ person.scholar }}">Google Scholar</a>{% endif %}{% if person.scholar and person.linkedin %} · {% endif %}{% if person.linkedin %}<a href="{{ person.linkedin }}">LinkedIn</a>{% endif %}</p>
     {% endif %}
     <p><em>{{ person.years }}</em></p>
-    {% if person.current_role %}<p><strong>Now:</strong> {{ person.current_role }}</p>{% endif %}
   </div>
 </div>
 {% endfor %}
@@ -52,6 +51,7 @@ author_profile: false
     {% if person.scholar or person.linkedin %}
       <p>{% if person.scholar %}<a href="{{ person.scholar }}">Google Scholar</a>{% endif %}{% if person.scholar and person.linkedin %} · {% endif %}{% if person.linkedin %}<a href="{{ person.linkedin }}">LinkedIn</a>{% endif %}</p>
     {% endif %}
+    <p><em>{{ person.years }}</em></p>
   </div>
 </div>
 {% endfor %}
