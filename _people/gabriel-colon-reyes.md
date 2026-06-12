@@ -6,7 +6,7 @@ program: "Electrical Engineering and Computer Sciences"
 # photo: "/assets/img/people/gabriel-colon-reyes.jpg"
 bio: ""
 # scholar: ""
-linkedin: "https://www.linkedin.com/in/gecolonr/"
+LinkedIn: "https://www.linkedin.com/in/gecolonr/"
 current role: "Senior Power Applications Engineer, Hitachi"
 permalink: /people/gabriel-colon-reyes/
 ---
