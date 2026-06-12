@@ -5,8 +5,10 @@ author_profile: false
 #  image: /assets/img/reconductoring.jpeg
 ---
 
-The **Energy Modeling, Analysis, and Control (EMAC)** research group is based at the University of California, Berkeley in the [Energy and Resources Group](https://erg.berkeley.edu). We address engineering, techno-economic, and social challenges to decarbonizing electric power systems.
+The **Energy Modeling, Analysis, and Control (EMAC)** research group is based at the University of California, Berkeley in the [Energy and Resources Group](https://erg.berkeley.edu). We address engineering, techno-economic, and social challenges to decarbonizing electric power systems. We work with economists, planners, qualitative social scientists, environmental justice scholars, and engineers. 
 
-Our work ranges from applied to theoretical. Much of our focus is on building new control and optimization frameworks to facilitate the operation of low carbon grids. We are increasingly working with large datasets — especially electricity consumption and solar production data — and building tools and algorithms to process and infer policy-relevant information. We work with economists, city planners, social scientists, environmental justice scholars, and engineers. 
+Much of our work focuses questions about how energy systems work now, and how they could work in the future. For example, we study new pathways for transmission planning, how effectively utilities have prevented wildfires in the past, and how many new distribution grid investments might be needed to meet goals for electrifying buildings and transportation. 
 
-EMAC is led by [Duncan Callaway](https://erg.berkeley.edu/people/callaway-duncan/) and includes undergraduates, graduate students, and postdocs from a variety of backgrounds. We also collaborate with researchers in the Energy and Environmental Technologies Division at [Lawrence Berkeley National Lab](https://lbl.gov).
+Other parts of our research aims to develop new methods in modeling, optimization and control of power systems. 
+
+EMAC is led by Duncan Callaway, and includes undergraduates, graduate students, and postdocs from a variety of backgrounds. We also collaborate with researchers in the Energy and Environmental Technologies Division at Lawrence Berkeley National Lab.
