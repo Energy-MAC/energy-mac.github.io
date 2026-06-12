@@ -8,11 +8,12 @@ author_profile: false
 ## Current Group Members
 
 <div class="person-card">
-    <img class="person-photo" src="/assets/img/people/duncan-callaway.png" alt="Duncan Callaway" style="max-width: 150px;">  <div class="person-info">
-    <h3><a href="https://erg.berkeley.edu/people/callaway-duncan/">Duncan Callaway</a></h3>
-    <p class="person-role">Professor, Energy and Resources Group</p>
-    <p>Duncan's research focuses on modeling, optimization, and control of electric power systems with high penetrations of renewable energy and distributed energy resources.</p>
-    <p><a href="mailto:dcal@berkeley.edu">dcal@berkeley.edu</a></p>
+    <img class="person-photo" src="/assets/img/people/duncan-callaway.png" alt="Duncan Callaway" style="max-width: 150px;">  
+    <div class="person-info">
+      <h3>Duncan Callaway</h3>
+      <p class="person-role">Professor, Energy and Resources Group</p>
+      <a href="https://scholar.google.com/citations?user=Ugijg1wAAAAJ">Google Scholar</a>
+      <p><a href="/assets/files/callaway-cv.pdf">CV</a> · <a href="mailto:dcal@berkeley.edu">dcal@berkeley.edu</a></p>
   </div>
 </div>
 
