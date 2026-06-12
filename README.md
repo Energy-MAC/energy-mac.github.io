@@ -22,14 +22,14 @@ Write your news item here in plain text or Markdown.
 4. Click **Commit** — site rebuilds in ~30 seconds
 
 ### Add yourself to the People page
-1. Go to `_students/` → **Add file → Create new file**
+1. Go to `_people/` → **Add file → Create new file**
 2. Name it `firstname-lastname.md`
 3. Copy this and fill in your details:
 ```
 ---
 name: "Your Name"
 role: "PhD Student"
-photo: "/assets/img/students/your-name.jpg"
+photo: "/assets/img/people/your-name.jpg"
 email: "you@berkeley.edu"
 research: "One sentence describing your research."
 alumni: false
@@ -41,7 +41,7 @@ A short bio paragraph about yourself.
 5. Commit both files
 
 ### Move someone to Alumni
-Open their file in `_students/` and change:
+Open their file in `_people/` and change:
 ```
 alumni: true
 degree: "PhD"
@@ -59,8 +59,8 @@ Edit `_pages/research.md` or `_pages/teaching.md` directly.
 _config.yml          ← Site settings (don't edit unless you know what you're doing)
 _posts/              ← News items
 _pages/              ← Static pages (people, research, teaching, join)
-_students/           ← One file per group member
-assets/img/students/ ← Photos
+_people/           ← One file per group member
+assets/img/people/ ← Photos
 assets/css/custom.css← Colors and styling
 _data/navigation.yml ← Top nav links
 ```
