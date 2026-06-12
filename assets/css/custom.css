@@ -9,6 +9,7 @@
   align-items: flex-start;
   gap: 20px;
   margin-bottom: 30px;
+  align-items: flex-start !important; /* Align photo to top of card, not center */
 }
 
 /* fix width of person photos */
@@ -16,18 +17,11 @@
   max-width: 150px;
   height: auto;
   flex-shrink: 0;
-}
-
-/* Align photo to top of card, not center */
-.person-card {
-  align-items: flex-start !important;
-}
-
-.person-photo {
   margin-top: 0 !important;
+  display: block;
 }
 
-/* change position where person text starts */
+/* Person text block */
 .person-info {
   margin-top: 0 !important;
   padding-top: 0 !important;
@@ -36,4 +30,5 @@
 .person-info h3 {
   margin-top: 0 !important;
   padding-top: 0 !important;
+  line-height: 1;
 }
