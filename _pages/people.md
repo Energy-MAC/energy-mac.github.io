@@ -13,7 +13,7 @@ author_profile: false
       <h3>Duncan Callaway</h3>
       <p class="person-role">Professor, Energy and Resources Group</p>
       <a href="https://scholar.google.com/citations?user=Ugijg1wAAAAJ">Google Scholar</a>
-      <p><a href="/assets/files/callaway-cv.pdf">CV</a> · <a href="mailto:dcal@berkeley.edu">dcal@berkeley.edu</a></p>
+      <p><a href="/assets/files/Duncan Callaway CV 2026.pdf">CV</a> · <a href="mailto:dcal@berkeley.edu">dcal@berkeley.edu</a></p>
   </div>
 </div>
 
