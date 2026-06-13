@@ -40,7 +40,6 @@ author_profile: false
 {% for person in alumni %}
 <div class="person-card">
   <div class="person-info">
-    <h3>{{ person.name }} · <small class="person-role"> {{ person.role }}{% if person.role != "Postdoc" %}, {{ person.program }}{% endif %}, <em>{{ person.years }}</em>{% if person.current_role %}.<strong> Now:</strong> {{ person.current_role }}.{% endif %} </small></h3>
     <p><strong>{{ person.name }}</strong> · {{ person.role }}{% if person.role != "Postdoc" %}, {{ person.program }}{% endif %}, <em>{{ person.years }}</em>{% if person.current_role %}.<strong> Now:</strong> {{ person.current_role }}.{% endif %}</p>
     {% if person.bio and person.bio != "" %}<p>{{ person.bio }}</p>{% endif %}
     {% if person.scholar or person.linkedin %}
