@@ -10,5 +10,5 @@ bio: ""
 permalink: /people/eleanor-adachi/
 alumni: true
 degree: "Masters"
-grad_year: 2025
+years: "2022-2025"
 ---
