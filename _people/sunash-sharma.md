@@ -2,7 +2,7 @@
 name: "Sunash Sharma"
 role: "PhD student"
 alumni: "no"
-program: "Electrical Engineering and Computer Sciences"
+program: "EECS"
 # photo: "/assets/img/people/sunash-sharma.jpg"
 bio: ""
 # scholar: ""

@@ -2,7 +2,7 @@
 name: "Lauren Aguilar"
 role: "PhD student"
 alumni: "no"
-program: "Energy and Resources Group"
+program: "ERG"
 # photo: "/assets/img/people/lauren-aguilar.jpg"
 bio: ""
 # scholar: ""

@@ -2,7 +2,7 @@
 name: "Liyang Wang"
 role: "PhD student"
 alumni: "yes"
-program: "Energy and Resources Group"
+program: "ERG"
 # photo: "/assets/img/people/liyang-wang.jpg"
 bio: ""
 # scholar: ""

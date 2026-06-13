@@ -2,7 +2,7 @@
 name: "Aneesha Manocha"
 role: "PhD student"
 alumni: "no"
-program: "Energy and Resources Group"
+program: "ERG"
 # photo: "/assets/img/people/aneesha-manocha.jpg"
 bio: ""
 # scholar: ""

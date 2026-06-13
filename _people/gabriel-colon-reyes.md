@@ -2,7 +2,7 @@
 name: "Gabriel Colón Reyes"
 role: "PhD student"
 alumni: "yes"
-program: "Electrical Engineering and Computer Sciences"
+program: "EECS"
 # photo: "/assets/img/people/gabriel-colon-reyes.jpg"
 bio: ""
 # scholar: ""
