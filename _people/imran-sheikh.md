@@ -1,0 +1,13 @@
+---
+name: "Imran Sheikh"
+program: "ERG"
+role: "PhD Student"
+# photo: "/assets/img/people/imran-sheikh.jpg"
+research: ""
+alumni: "yes"
+year: "2017"
+degree: "PhD"
+current_role: "Associate Professor, Western Washington University"
+# scholar: ""
+# linkedin: ""
+---
