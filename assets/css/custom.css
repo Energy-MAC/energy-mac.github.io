@@ -4,6 +4,10 @@
   width: auto !important;
 } 
 
+.site-title {
+  display: none !important;
+}
+
 .page__hero--overlay {
   max-height: 1000px !important; 
   min-height: 200px !important; 
