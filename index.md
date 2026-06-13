@@ -2,6 +2,7 @@
 layout: single
 author_profile: false
 header:
+    overlay_filter: 0.0
     image: /assets/img/american-public-power-association-513dBrMJ_5w-unsplash
 ---
 
