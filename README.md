@@ -28,24 +28,27 @@ Write your news item here in plain text or Markdown.
 ```
 ---
 name: "Your Name"
-role: "PhD Student"
+program: "ERG" or "EECS" or "ERG and GSPP" or...
+role: "PhD Student", "Master's Student", "Undergrad", or "Postdoc"...
 photo: "/assets/img/people/your-name.jpg"
-email: "you@berkeley.edu"
+email: "you@berkeley.edu" (optional)
 research: "One sentence describing your research."
 alumni: false
+year: "20XX-"
+CV: "cv-your-name.pdf"
 ---
 
 A short bio paragraph about yourself.
 ```
 4. Add your photo to `assets/img/students/` (square crop works best)
-5. Commit both files
+5. Add your CV (if you want) to assets/files/cv-your-name.pdf
+6. Commit all files
 
 ### Move someone to Alumni
 Open their file in `_people/` and change:
 ```
 alumni: true
-degree: "PhD"
-grad_year: 2026
+year: "20xx-20xx"
 position: "Their new job title and organization"
 ```
 
@@ -60,7 +63,8 @@ _config.yml          ← Site settings (don't edit unless you know what you're d
 _posts/              ← News items
 _pages/              ← Static pages (people, research, teaching, join)
 _people/           ← One file per group member
-assets/img/people/ ← Photos
+assets/img/ ← Photos
+assets/files/ ← Files, like CVs
 assets/css/custom.css← Colors and styling
 _data/navigation.yml ← Top nav links
 ```
