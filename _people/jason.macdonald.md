@@ -1,6 +1,6 @@
 ---
 name: "Jason MacDonald"
-role: "PhD's student"
+role: "PhD student"
 alumni: "no"
 program: "ERG"
 photo: "/assets/img/people/jason-macdonald.jpeg"
