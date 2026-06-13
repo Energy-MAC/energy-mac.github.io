@@ -32,7 +32,7 @@ program: "ERG" or "EECS" or "ERG and GSPP" or...
 role: "PhD Student", "Master's Student", "Undergrad", or "Postdoc"...
 photo: "/assets/img/people/your-name.jpg"
 email: "you@berkeley.edu" (optional)
-research: "One sentence describing your research."
+research: "a short (no more than 3 sentences) description of your research"
 alumni: false
 year: "20XX-"
 CV: "cv-your-name.pdf"
