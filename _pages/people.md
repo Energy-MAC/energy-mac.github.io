@@ -42,7 +42,7 @@ author_profile: false
   <div class="person-info">
     <p><strong>{{ person.name }}</strong> · {{ person.degree }}{% if person.degree != "Postdoc" %}, {{ person.program }}{% endif %}, <em>{{ person.years }}</em>{% if person.current_role %}.<strong> Now:</strong> {{ person.current_role }}.{% endif %}</p>
     {% if person.scholar or person.linkedin %}
-      <p>{% if person.scholar %}<a href="{{ person.scholar }}">Google Scholar</a>{% endif %}{% if person.scholar and person.linkedin %} · {% endif %}{% if person.linkedin %}<a href="{{ person.linkedin }}">LinkedIn</a>{% endif %}</p>
+    {% if person.scholar %}<a href="{{ person.scholar }}">Google Scholar</a>{% endif %}{% if person.scholar and person.linkedin %} · {% endif %}{% if person.linkedin %}<a href="{{ person.linkedin }}">LinkedIn</a>{% endif %}
     {% endif %}
   </div>
 </div>
