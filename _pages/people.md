@@ -20,7 +20,7 @@ author_profile: false
 <div class="person-card">
   {% if person.photo %}<img class="person-photo" src="{{ person.photo }}" alt="{{ person.name }}">{% endif %}
   <div class="person-info">
-    <h3>{{ person.name }}· <small class="person-role"> {{ person.role }}, {{ person.program }}, <em>{{ person.years }}</em></small></h3>
+    <h3>{{ person.name }} · <small class="person-role"> {{ person.role }}, {{ person.program }}, <em>{{ person.years }}</em></small></h3>
     {% if person.research and person.research != "" %}
     {{ person.research }}
     {% endif %}
@@ -40,9 +40,8 @@ author_profile: false
 {% for person in alumni %}
 <div class="person-card">
   <div class="person-info">
-    <h3>{{ person.name }}· <small class="person-role"> {{ person.role }}{% if person.role != "Postdoc" %}, {{ person.program }}{% endif %}, <em>{{ person.years }}</em></small></h3>
+    <h3>{{ person.name }} · <small class="person-role"> {{ person.role }}{% if person.role != "Postdoc" %}, {{ person.program }}{% endif %}, <em>{{ person.years }}</em> {% if person.current_role %}<strong>, Now:</strong> {{ person.current_role }}.{% endif %} </small></h3>
     {% if person.bio and person.bio != "" %}<p>{{ person.bio }}</p>{% endif %}
-    {% if person.current_role %}<p><strong>Now:</strong> {{ person.current_role }}</p>{% endif %}
     {% if person.scholar or person.linkedin %}
       <p>{% if person.scholar %}<a href="{{ person.scholar }}">Google Scholar</a>{% endif %}{% if person.scholar and person.linkedin %} · {% endif %}{% if person.linkedin %}<a href="{{ person.linkedin }}">LinkedIn</a>{% endif %}</p>
     {% endif %}
