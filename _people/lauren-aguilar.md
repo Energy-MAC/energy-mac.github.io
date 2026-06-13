@@ -9,5 +9,5 @@ bio: ""
 linkedin: "https://www.linkedin.com/in/laguilar03"
 permalink: /people/lauren-aguilar/
 years: "2025-"
-CV: "/assets/files/cv-duncan-callaway.pdf"
+# CV: "/assets/files/cv-lauren-aguilar.pdf"
 ---

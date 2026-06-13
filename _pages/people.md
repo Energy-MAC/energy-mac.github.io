@@ -11,7 +11,7 @@ author_profile: false
     <img class="person-photo" src="/assets/img/people/duncan-callaway.png" alt="Duncan Callaway" style="max-width: 150px;">  
     <div class="person-info">
       <h3>Duncan Callaway · <small class="person-role"> Professor, Energy and Resources Group</small></h3>
-      <p><a href="/assets/files/cv-duncan-callaway.pdf">CV</a> · <a href="https://scholar.google.com/citations?user=Ugijg1wAAAAJ">Google Scholar</p>
+      <p><a href="/assets/files/cv-duncan-callaway.pdf">CV</a> · <a href="https://scholar.google.com/citations?user=Ugijg1wAAAAJ">Google Scholar</a></p>
   </div>
 </div>
 
