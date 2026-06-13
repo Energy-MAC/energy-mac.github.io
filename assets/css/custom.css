@@ -30,7 +30,7 @@
 .person-info h3 {
   margin-top: 0 !important;
   padding-top: 0 !important;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .person-card p {
@@ -40,4 +40,5 @@
 .person-info h3 small {
   font-weight: normal;
   font-size: 0.85em;
+  line-height: 1.2;
 }
