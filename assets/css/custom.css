@@ -13,6 +13,9 @@
 .page__hero--overlay img {
   object-fit: cover;
   object-position: center center;
+  height: 100% !important;
+  width: 100% !important;
+  position: absolute !important;
 }
 
 .person-card {
