@@ -1,6 +1,7 @@
 ---
 name: "Ana Santasheva"
 role: "Master's student"
+degree: "Master's"
 alumni: "yes"
 program: "ERG"
 # photo: "/assets/img/people/ana-santasheva.jpg"
