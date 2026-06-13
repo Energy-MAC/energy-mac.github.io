@@ -34,7 +34,7 @@ photo: "/assets/img/people/your-name.jpg"
 email: "you@berkeley.edu" (optional)
 research: "a short (no more than 3 sentences) description of your research"
 alumni: "no"
-year: "20XX-"
+years: "20XX-"
 CV: "cv-your-name.pdf"
 ---
 
@@ -48,7 +48,7 @@ A short bio paragraph about yourself.
 Open their file in `_people/` and change:
 ```
 alumni: "yes"
-year: "20xx-20xx"
+years: "20xx-20xx"
 current_role: "Their new job title and organization"
 degree: "PhD" OR "Master's" or "Bachelor's" or "Postdoc"
 ```
