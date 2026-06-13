@@ -50,7 +50,7 @@ Open their file in `_people/` and change:
 alumni: true
 year: "20xx-20xx"
 position: "Their new job title and organization"
-degree: "PhD" OR "Master's" or "Bachelor's" or "" (blank for postdocs)
+degree: "PhD" OR "Master's" or "Bachelor's" or "Postdoc"
 ```
 
 ### Edit research areas or teaching

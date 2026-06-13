@@ -9,7 +9,6 @@ bio: ""
 current_role: "Senior Consultant at E3"
 linkedin: "https://www.linkedin.com/in/eleanoradachi"
 permalink: /people/eleanor-adachi/
-alumni: true
-degree: "Masters"
+degree: "Masters, ERG and GSPP"
 years: "2022-2025"
 ---
