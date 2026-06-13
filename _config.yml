@@ -39,22 +39,22 @@ author:
       url: "https://github.com/Energy-MAC"
 
 # --- Footer ---
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Energy-MAC"
-    - label: "Google Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=Ugijg1wAAAAJ&hl=en"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:dcal@berkeley.edu"
+# footer:
+#   links:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/Energy-MAC"
+#     - label: "Google Scholar"
+#       icon: "fas fa-fw fa-graduation-cap"
+#       url: "https://scholar.google.com/citations?user=Ugijg1wAAAAJ&hl=en"
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto:dcal@berkeley.edu"
 
 # --- Reading files ---
 include:
   - _pages
-  - _students
+  - _pepole
 
 # --- Collections ---
 collections:
