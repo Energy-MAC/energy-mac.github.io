@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 author_profile: false
 #header:
 image: /assets/img/american-public-power-association-513dBrMJ_5w-unsplash

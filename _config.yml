@@ -115,6 +115,9 @@ timezone: "America/Los_Angeles"
 permalink: /:year-:month-:day-:title/
 date_format: "%B %-d, %Y"
 
+atom_feed:
+  hide: true
+
 # --- Exclude from build ---
 exclude:
   - Gemfile
