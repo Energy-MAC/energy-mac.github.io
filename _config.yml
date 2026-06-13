@@ -81,7 +81,7 @@ defaults:
       share: false
       related: false
   # People collection
-- scope:
+  - scope:
       path: ""
       type: people
     values:
