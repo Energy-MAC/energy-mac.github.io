@@ -36,3 +36,8 @@
 .person-card p {
   margin-bottom: 4px !important;
 }
+
+.person-info h3 small {
+  font-weight: normal;
+  font-size: 0.7em;
+}
