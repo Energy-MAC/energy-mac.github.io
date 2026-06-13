@@ -1,6 +1,6 @@
 ---
 name: "Antoine Lesage-Landry"
-role: "Postdoc"
+degree: "Postdoc"
 alumni: "yes"
 program: "Electrical Engineering and Computer Sciences, University of Toronto"
 years: "2019–2020"

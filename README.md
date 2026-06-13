@@ -29,11 +29,11 @@ Write your news item here in plain text or Markdown.
 ---
 name: "Your Name"
 program: "ERG" or "EECS" or "ERG and GSPP" or...
-role: "PhD Student", "Master's Student", "Undergrad", or "Postdoc"...
+role: "PhD Student", "Master's Student", "Undergrad", or "Postdoc" ...
 photo: "/assets/img/people/your-name.jpg"
 email: "you@berkeley.edu" (optional)
 research: "a short (no more than 3 sentences) description of your research"
-alumni: false
+alumni: "no"
 year: "20XX-"
 CV: "cv-your-name.pdf"
 ---
@@ -47,7 +47,7 @@ A short bio paragraph about yourself.
 ### Move someone to Alumni
 Open their file in `_people/` and change:
 ```
-alumni: true
+alumni: "yes"
 year: "20xx-20xx"
 current_role: "Their new job title and organization"
 degree: "PhD" OR "Master's" or "Bachelor's" or "Postdoc"
