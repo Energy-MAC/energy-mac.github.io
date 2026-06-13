@@ -10,7 +10,7 @@ author_profile: false
 <div class="person-card">
     <img class="person-photo" src="/assets/img/people/duncan-callaway.png" alt="Duncan Callaway" style="max-width: 150px;">  
     <div class="person-info">
-      <h3>Duncan Callaway</h3><p class="person-role">Professor, Energy and Resources Group</p>
+      <h3>Duncan Callaway</h3> · <small class="person-role"> Professor, Energy and Resources Group</small></p>
       <a href="https://scholar.google.com/citations?user=Ugijg1wAAAAJ">Google Scholar</a>
       <p><a href="/assets/files/cv-duncan-callaway.pdf">CV</a> · <a href="mailto:dcal@berkeley.edu">dcal@berkeley.edu</a></p>
   </div>
@@ -26,7 +26,7 @@ author_profile: false
     <p>{{ person.bio }}</p>
     {% endif %}
     {% if person.scholar or person.linkedin %}
-    <p>{% if person.scholar %}<a href="{{ person.scholar }}">Google Scholar</a>{% endif %}{% if person.scholar and person.linkedin %} · {% endif %}{% if person.linkedin %}<a href="{{ person.linkedin }}">LinkedIn</a>{% endif %}{% if person.CV %} {% if person.scholar or person.linkedin %} · {% endif %} {{<a href="{{ person.CV }}">CV</a> {% endif %}</p>
+    <p>{% if person.scholar %}<a href="{{ person.scholar }}">Google Scholar</a>{% endif %}{% if person.scholar and person.linkedin %} · {% endif %}{% if person.linkedin %}<a href="{{ person.linkedin }}">LinkedIn</a>{% endif %}{% if person.CV %} {% if person.scholar or person.linkedin %} · {% endif %}<a href="{{ person.CV }}">CV</a> {% endif %}</p>
     {% endif %}
   </div>
 </div>
