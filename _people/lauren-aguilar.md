@@ -6,8 +6,8 @@ program: "ERG"
 # photo: "/assets/img/people/lauren-aguilar.jpg"
 bio: ""
 # scholar: ""
-linkedin: "linkedin.com/in/laguilar03"
-permalink: /people/aneesha-manocha/
+linkedin: "https://www.linkedin.com/in/laguilar03"
+permalink: /people/lauren-aguilar/
 years: "2025-"
 CV: "/assets/files/cv-duncan-callaway.pdf"
 ---
