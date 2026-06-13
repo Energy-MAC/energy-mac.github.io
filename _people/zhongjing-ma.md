@@ -1,6 +1,6 @@
 ---
 name: "Zhongjing Ma"
-role: "Postdoc"
+degree: "Postdoc"
 alumni: "yes"
 program: "Electrical Engineering and Computer Sciences, McGill University"
 years: "2009–2010"

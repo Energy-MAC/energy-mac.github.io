@@ -1,6 +1,6 @@
 ---
 name: "Mingxi Liu"
-role: "Postdoc"
+degree: "Postdoc"
 alumni: "yes"
 program: "Mechanical Engineering, University of Victoria"
 years: "2016–2018"

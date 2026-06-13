@@ -1,6 +1,6 @@
 ---
 name: "Mengqi Yao"
-role: "Postdoc"
+degree: "Postdoc"
 alumni: "yes"
 program: "Electrical Engineering and Computer Sciences, University of Michigan"
 years: "2020–2022"
