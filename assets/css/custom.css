@@ -6,7 +6,7 @@
 
 .page__hero--overlay,
 .page__hero {
-  max-height: 300px !important;
+  max-height: 150px !important;
   overflow: hidden;
 }
 
