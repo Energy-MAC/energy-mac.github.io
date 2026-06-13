@@ -45,7 +45,7 @@ author_profile: false
 <div class="person-card">
   <div class="person-info">
     <h3>{{ person.name }}</h3>
-    <p class="person-role">{{ person.role }}, {{ person.program }}</p>
+    <p class="person-role">{{ person.role }}{% if person.role != "Postdoc" %}, {{ person.program }}{% endif %}</p>
     {% if person.bio and person.bio != "" %}<p>{{ person.bio }}</p>{% endif %}
     {% if person.current_role %}<p><strong>Now:</strong> {{ person.current_role }}</p>{% endif %}
     {% if person.scholar or person.linkedin %}
