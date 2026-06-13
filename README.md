@@ -49,7 +49,7 @@ Open their file in `_people/` and change:
 ```
 alumni: true
 year: "20xx-20xx"
-position: "Their new job title and organization"
+current_role: "Their new job title and organization"
 degree: "PhD" OR "Master's" or "Bachelor's" or "Postdoc"
 ```
 
