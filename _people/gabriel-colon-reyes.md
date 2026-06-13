@@ -1,7 +1,7 @@
 ---
 name: "Gabriel Colón Reyes"
 role: "PhD student"
-degree: "PhD, EECS"
+degree: "PhD"
 alumni: "yes"
 program: "EECS"
 current_role: "Senior Power Applications Engineer, Hitachi Energy"
