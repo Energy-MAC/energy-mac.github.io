@@ -38,7 +38,7 @@ author_profile: false
 {% assign alumni = site.people | where: "alumni", "yes" | sort: "name" %}
 {% if alumni.size > 0 %}
 {% for person in alumni %}
-<div class="person-card">
+<div class="person-card alumni-card">
   <div class="person-info">
     <p><strong>{{ person.name }}</strong> · {{ person.degree }}{% if person.degree != "Postdoc" %}, {{ person.program }}{% endif %}, <em>{{ person.years }}</em>{% if person.current_role %}.<strong> Now:</strong> {{ person.current_role }}.{% endif %}</p>
     {% if person.bio and person.bio != "" %}<p>{{ person.bio }}</p>{% endif %}
