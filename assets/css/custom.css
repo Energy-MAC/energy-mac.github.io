@@ -4,10 +4,14 @@
   width: auto !important;
 } 
 
-.page__hero--overlay,
-.page__hero {
-  max-height: 150px !important;
+.page__hero--overlay {
+  max-height: 300px !important;
   overflow: hidden;
+}
+
+.page__hero--overlay img {
+  object-fit: cover;
+  object-position: center center;
 }
 
 .person-card {
