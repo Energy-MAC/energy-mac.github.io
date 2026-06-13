@@ -8,9 +8,9 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "default"
 
 # --- Site settings ---
-title: "EMAC"
+title: "EM AC"
 title_separator: "-"
-subtitle: "Energy Modeling, Analysis, and Control"
+subtitle: " "
 name: "Duncan Callaway"
 description: "Energy Modeling, Analysis, and Control group at UC Berkeley"
 url: "https://energy-mac.github.io"
