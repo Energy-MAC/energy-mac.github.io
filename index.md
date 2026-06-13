@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ""
+title: " "
 author_profile: false
 header:
     overlay_filter: 0.0
