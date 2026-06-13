@@ -4,6 +4,12 @@
   width: auto !important;
 } 
 
+.page__hero--overlay,
+.page__hero {
+  max-height: 300px !important;
+  overflow: hidden;
+}
+
 .person-card {
   display: flex;
   align-items: flex-start;
