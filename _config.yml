@@ -9,10 +9,8 @@ minimal_mistakes_skin: "default"
 
 # --- Site settings ---
 title: "EMAC"
-title: " "
 title_separator: "-"
 subtitle: "Energy Modeling, Analysis, and Control"
-subtitle: " "
 name: "Duncan Callaway"
 description: "Energy Modeling, Analysis, and Control group at UC Berkeley"
 url: "https://energy-mac.github.io"
@@ -54,7 +52,7 @@ author:
 # --- Reading files ---
 include:
   - _pages
-  - _pepole
+  - _people
 
 # --- Collections ---
 collections:
@@ -82,10 +80,10 @@ defaults:
       read_time: false
       share: false
       related: false
-  # Students collection
-  - scope:
+  # People collection
+- scope:
       path: ""
-      type: students
+      type: people
     values:
       layout: single
       author_profile: false
